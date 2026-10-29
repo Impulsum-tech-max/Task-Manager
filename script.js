@@ -1,5 +1,5 @@
-import { saveTask, loadTask } from "./js/storage.js";
-import { enableEditing } from "./js/tasks.js";
+import { saveTask, loadTask } from "./storage.js";
+import { enableEditing } from "./tasks.js";
 
 const taskInput = document.querySelector("#taskInput");
 const addBtn = document.querySelector("#addBtn");
